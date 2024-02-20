@@ -97,6 +97,17 @@ body{
   }
   
   @media all and (max-width: 820px) {
+
+    section.module.parallax-1,
+    section.module.parallax-2,
+    section.module.parallax-3 {
+      background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+    }
+
     section.module h2 {
       font-size: 32px;
     }
